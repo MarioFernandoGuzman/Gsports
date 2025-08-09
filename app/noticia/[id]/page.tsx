@@ -7,20 +7,34 @@ import { ArrowLeft } from "lucide-react"
 const noticias = [
   {
     id: 1,
-    titulo: "Xelaju MC arranca con victoria",
-    resumen: "Xelaju MC arranca con victoria: 2-0 frente al Hércules de El Salvador en la Copa Centroamericana",
-    fecha: "30 Julio 2024",
+    titulo: "Deportivo Mixco: imparable y líder tras arranque perfecto en el Apertura",
+    resumen: "Deportivo Mixco ha comenzado el Torneo Apertura 2025 con un historial impecable: tres victorias consecutivas y apenas un gol encajado, lo que lo coloca como líder indiscutible de la tabla tras la jornada 3.  ",
+    fecha: "8 de agosto de 2025",
     categoria: "Deportes",
-    imagen: "/noticias/noticia1.jpg",
+    imagen: "/noticias/noticia1.jpeg",
     contenidoCompleto: `
-      Xelaju MC arranca con victoria: 2-0 frente al Hércules de El Salvador en la Copa Centroamericana.
-      Este miércoles 30 de julio, Xela debutó con el pie derecho en la Copa Centroamericana, llevándose una victoria 2-0 sobre Hércules en la jornada 1 del Grupo D. ¡Inicio con todo!
-      Desde los primeros minutos, el equipo mostró actitud, presión alta y buena conexión en el medio campo. El primer gol llegó tras una jugada bien armada, donde Romário da Silva definió con clase para abrir el marcador. El segundo tanto también cayó en la segunda mitad, con Pedro Báez aprovechando una desconcentración defensiva para poner el 2-0 definitivo.
-      Hércules intentó responder, pero no logró romper el bloque defensivo rival ni generar peligro claro. El arquero de Xela, también tuvo un par de intervenciones clave para mantener el arco en cero.
-      Con este resultado, Xela suma sus primeros 3 puntos en el grupo D y se perfila como uno de los candidatos a avanzar en esta edición de la copa.
-      El equipo no solo ganó, también gustó. Buen ritmo, presión y contundencia. 🔥 Jugador destacado: Pedro Báez, por su liderazgo y aporte en ambos lados del campo.
-      ¿Qué sigue?
-      La próxima jornada será clave para mantener el impulso. Por ahora, la afición puede celebrar este arranque soñado.
+      Deportivo Mixco ha comenzado el Torneo Apertura 2025 con un historial impecable: tres victorias consecutivas y apenas un gol encajado, lo que lo coloca como líder indiscutible de la tabla tras la jornada 3. El equipo, dirigido por Fabrizio Benítez, ha mostrado solidez ofensiva y defensiva, con el experimentado Nicolás Martínez como figura clave en la ofensiva. ¡Un inicio histórico para el club mezclano!
+    `,
+    autor: {
+      nombre: "Cony Rodriguez",
+      foto: "/autores/cony.jpeg",
+      
+    },
+  },
+  {
+    id: 2,
+    titulo: "Tormenta en la portería: El pulso entre Ter Stegen y el Barça",
+    resumen: " El FC Barcelona enfrenta una crisis institucional tras la negativa de Ter Stegen a firmar un informe médico que le habría permitido ser inscrito como lesionado de larga duración, lo que habría liberado parte de su salario.",
+    fecha: "8 de agosto de 2025",
+    categoria: "Deportes",
+    imagen: "/noticias/noticia2.jpeg",
+    contenidoCompleto: `
+      En lo que parecía ser una pretemporada tranquila tras un sucio traspié físico, el FC Barcelona se ha visto envuelto en una tormenta institucional de magnitudes in imaginadas. El protagonista: Marc-André Ter Stegen, guardameta veterano y, hasta hace poco, capitán indiscutible.
+      Todo comenzó con la necesidad de inscribir nuevos fichajes como Joan García y Marcus Rashford, en medio de las férreas restricciones salariales de La Liga. La solución pasaba por designar a Ter Stegen como lesionado de larga duración una jugada que habría liberado el 80 % de su salario, pero el portero se negó a firmar el informe médico requerido. Según sus propias palabras, su ausencia sería de tres meses, no cuatro o más, lo que dejaba al club en jaque económico y operativo.
+      La respuesta del club fue rápida y contundente: apertura de expediente disciplinario, retiro temporal de la capitanía con Ronald Araújo como sustituto y la instrucción al cuerpo técnico de no permitir su reelección, especialmente antes del simbólico Trofeo Gamper.
+      El conflicto escaló aún más al hacerse público que Ter Stegen ya no aparece con número asignado en la plantilla oficial para la temporada 2025-26, una señal clara del deterioro de su relación con la entidad.
+      En medio del fuego cruzado, el arquero rompió el silencio. En un comunicado en varios idiomas, aseguró que la operación y plazos fueron acordados con el club y negó cualquier intención de perjudicar al equipo o retrasar fichajes. Reafirmó su afecto por los colores blaugrana, su profesionalismo y su deseo de resolver el conflicto a través del diálogo.
+      Queda claro que, mientras el calendario aprieta y La Liga observa de cerca, el Barça enfrenta una crisis interna que trasciende lo deportivo. La lealtad, la economía y la imagen institucional chocan frontalmente. ¿Será el diálogo la vía para reconducir esta situación? Todo apunta a que, si hay una salida, deberá pasar por la mesa de negociación y mucho tacto.
     `,
     autor: {
       nombre: "Gabriel Cifuentes",
@@ -28,36 +42,14 @@ const noticias = [
     },
   },
   {
-    id: 2,
-    titulo: "Sololá Arrassa y se corona!",
-    resumen: "¡Sololá arrasa y se corona campeona nacional U14 de baloncesto femenino! ",
-    fecha: "14 Enero 2024",
-    categoria: "Deportes",
-    imagen: "/noticias/noticia2.jpeg",
-    contenidoCompleto: `
-      ¡Orgullo puro del altiplano guatemalteco! El equipo femenino de baloncesto U14 del departamento de Sololá se alzó como campeón nacional en los Juegos Deportivos Nacionales 2025, celebrados del 22 al 26 de julio. ¡Y vaya manera de cerrar la competencia más esperada del año!
-      Con un juego lleno de energía, trabajo en equipo y mucha pasión por la duela, las chicas sololatecas dejaron el alma en la cancha y demostraron que el talento joven en Guatemala está más vivo que nunca. El triunfo no solo es un logro deportivo, sino también una inspiración para nuevas generaciones que sueñan con representar a su departamento a nivel nacional.
-      La final se vivió con intensidad y emoción en el coliseo deportivo, donde el equipo de Sololá, vestido de verde vibrante, levantó la copa con orgullo y la bandera bien en alto. El esfuerzo de cada jugadora, junto con el compromiso de su cuerpo técnico, se tradujo en una victoria que marcará historia para el baloncesto femenino juvenil del país.
-      En la imagen oficial compartida por la Federación Nacional de Baloncesto de Guatemala (FNBG), se ve al equipo completo celebrando su gran hazaña con sonrisas, medallas y la bandera de Sololá al centro. ¡Una postal que grita campeonas con cada píxel!
-    `,
-    autor: {
-      nombre: "Cony Rodriguez",
-      foto: "/autores/cony.jpeg",
-    },
-  },
-  {
     id: 3,
-    titulo: "FC Barcelona inicia su pretemporada",
-    resumen: "FC Barcelona inicia su pretemporada con ilusiones renovadas y expectativas en el mercado de fichajes",
-    fecha: "13 Enero 2024",
+    titulo: "Rubio Rubin: La afición guatemalteca nos hará sentir en casa si clasificamos al Mundial 2026",
+    resumen: "Rubio Rubin, delantero de la selección de Guatemala, expresó su convicción tras la histórica participación de su equipo en la Copa Oro 2025, donde llegaron hasta las semifinales.",
+    fecha: "8 Agosto 2025",
     categoria: "Deportes",
     imagen: "/noticias/noticia3.jpeg",
     contenidoCompleto: `
-      El FC Barcelona ha dado inicio a su pretemporada 2025-26 con entrenamientos intensos en la Ciudad Deportiva Joan Gamper, bajo las órdenes de Hansi Flick, quien encara su primera temporada completa al frente del banquillo culé. El objetivo es claro: recuperar la competitividad y volver a luchar por todos los títulos tras una campaña pasada marcada por la irregularidad.
-      Los jugadores ya han disputado algunos partidos amistosos, en los que se ha podido ver una propuesta más dinámica y organizada, especialmente en defensa, una de las prioridades del nuevo técnico alemán. Además, se ha notado una apuesta por jóvenes talentos de La Masia, como Marc Guiu, Héctor Fort y Pau Cubarsí, que buscan consolidarse en el primer equipo.
-      En cuanto al mercado de fichajes, la directiva azulgrana trabaja con cautela debido a las limitaciones financieras, pero no se descartan movimientos importantes. El club sigue negociando la posible llegada de un mediocentro de corte defensivo, siendo Mikel Merino uno de los nombres que más suena. También se mantiene la esperanza de cerrar un fichaje para reforzar el lateral derecho, una posición que sigue sin dueño claro.
-      En el capítulo de salidas, algunos jugadores como Sergiño Dest, Lenglet o Ferran Torres podrían abandonar el club si llegan ofertas convincentes. La prioridad es liberar masa salarial para facilitar nuevas incorporaciones.
-      Con la Liga a punto de comenzar, el Barça busca llegar a punto físicamente y con la plantilla definida. Los próximos días serán clave para cerrar fichajes y perfilar el equipo que intentará devolver la ilusión a la afición culé.
+     Rubio Rubin, delantero de la selección de Guatemala, expresó su convicción tras la histórica participación de su equipo en la Copa Oro 2025, donde llegaron hasta las semifinales. Rubin afirmó que, de clasificarse al Mundial 2026, podrían jugar como locales debido al enorme apoyo de guatemaltecos en EE. UU. También destacó cómo el equipo superó adversidades, mostrando mentalidad ganadora para enfrentar ahora las eliminatorias contra Panamá, El Salvador y Surinam.
     `,
     autor: {
       nombre: "Gabriel Cifuentes",
@@ -145,7 +137,7 @@ export default function NoticiaPage({ params }: { params: Promise<{ id: string }
                       className="w-full h-64 object-cover"
                     />
                     <p className="text-sm text-gray-500 text-center mt-2 italic">
-                      El equipo de Sololá celebra su victoria en el campeonato nacional
+                      Ter Stegen con el presidente del FC Barcelona, Joan Laporta.
                     </p>
                   </div>
                 </div>
