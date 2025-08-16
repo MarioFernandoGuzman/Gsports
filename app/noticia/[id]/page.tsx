@@ -7,49 +7,65 @@ import { ArrowLeft } from "lucide-react"
 const noticias = [
   {
     id: 1,
-    titulo: "Deportivo Mixco: imparable y líder tras arranque perfecto en el Apertura",
-    resumen: "Deportivo Mixco ha comenzado el Torneo Apertura 2025 con un historial impecable: tres victorias consecutivas y apenas un gol encajado, lo que lo coloca como líder indiscutible de la tabla tras la jornada 3.  ",
-    fecha: "8 de agosto de 2025",
+    titulo: "Lester Martínez: Una pelea histórica en la cartelera de Canelo vs. Crawford",
+    resumen: "El guatemalteco Lester Martínez enfrentará a Christian Mbilli en Las Vegas, en la antesala del combate entre Canelo Álvarez y Terence Crawford.",
+    fecha: "16 de agosto de 2025",
     categoria: "Deportes",
-    imagen: "/noticias/noticia1.jpeg",
+    imagen: "/noticias/noticia3.jpg",
     contenidoCompleto: `
-      Deportivo Mixco ha comenzado el Torneo Apertura 2025 con un historial impecable: tres victorias consecutivas y apenas un gol encajado, lo que lo coloca como líder indiscutible de la tabla tras la jornada 3. El equipo, dirigido por Fabrizio Benítez, ha mostrado solidez ofensiva y defensiva, con el experimentado Nicolás Martínez como figura clave en la ofensiva. ¡Un inicio histórico para el club mezclano!
-    `,
-    autor: {
-      nombre: "Cony Rodriguez",
-      foto: "/autores/cony.jpeg",
+      Las Vegas, 13 de septiembre de 2025 será una fecha histórica para el boxeo guatemalteco. En esa noche, el guatemalteco Lester Martínez, invicto con 19 triunfos (16 por nocaut), subirá al ring en el Allegiant Stadium para enfrentarse al también invicto Christian Mbilli (29-0, 24 KOs) en la antesala del esperado combate entre Canelo Álvarez y Terence Crawford.
       
-    },
-  },
-  {
-    id: 2,
-    titulo: "Tormenta en la portería: El pulso entre Ter Stegen y el Barça",
-    resumen: " El FC Barcelona enfrenta una crisis institucional tras la negativa de Ter Stegen a firmar un informe médico que le habría permitido ser inscrito como lesionado de larga duración, lo que habría liberado parte de su salario.",
-    fecha: "8 de agosto de 2025",
-    categoria: "Deportes",
-    imagen: "/noticias/noticia2.jpeg",
-    contenidoCompleto: `
-      En lo que parecía ser una pretemporada tranquila tras un sucio traspié físico, el FC Barcelona se ha visto envuelto en una tormenta institucional de magnitudes in imaginadas. El protagonista: Marc-André Ter Stegen, guardameta veterano y, hasta hace poco, capitán indiscutible.
-      Todo comenzó con la necesidad de inscribir nuevos fichajes como Joan García y Marcus Rashford, en medio de las férreas restricciones salariales de La Liga. La solución pasaba por designar a Ter Stegen como lesionado de larga duración una jugada que habría liberado el 80 % de su salario, pero el portero se negó a firmar el informe médico requerido. Según sus propias palabras, su ausencia sería de tres meses, no cuatro o más, lo que dejaba al club en jaque económico y operativo.
-      La respuesta del club fue rápida y contundente: apertura de expediente disciplinario, retiro temporal de la capitanía con Ronald Araújo como sustituto y la instrucción al cuerpo técnico de no permitir su reelección, especialmente antes del simbólico Trofeo Gamper.
-      El conflicto escaló aún más al hacerse público que Ter Stegen ya no aparece con número asignado en la plantilla oficial para la temporada 2025-26, una señal clara del deterioro de su relación con la entidad.
-      En medio del fuego cruzado, el arquero rompió el silencio. En un comunicado en varios idiomas, aseguró que la operación y plazos fueron acordados con el club y negó cualquier intención de perjudicar al equipo o retrasar fichajes. Reafirmó su afecto por los colores blaugrana, su profesionalismo y su deseo de resolver el conflicto a través del diálogo.
-      Queda claro que, mientras el calendario aprieta y La Liga observa de cerca, el Barça enfrenta una crisis interna que trasciende lo deportivo. La lealtad, la economía y la imagen institucional chocan frontalmente. ¿Será el diálogo la vía para reconducir esta situación? Todo apunta a que, si hay una salida, deberá pasar por la mesa de negociación y mucho tacto.
+      Para Martínez, este combate representa una ventana a nivel mundial. "El premio al trabajo de muchos años", según su entrenador Héctor Arriola. Estar en esta cartelera no solo es visibilidad masiva, sino un reconocimiento al esfuerzo constante.
+      
+      Christian Mbilli, originario de Camerún y afincado en Canadá, es considerado el segundo mejor supermediano en el ranking, justo detrás de Canelo. Martínez, por su parte, ya se colocó en el top 10 mundial de los 168 libras tras derrotar a Joeshon James el 22 de marzo de 2025.
+      
+      Aunque designado como coestelar, el impacto de esta pelea puede trascender el resultado: aumentar su visibilidad internacional, abrirle puertas a enfrentamientos de alto perfil y posicionarlo como figura clave de la división. 
+      
+      La presencia de Lester Martínez en la cartelera de Canelo vs. Crawford no es casualidad, sino el fruto de una carrera forjada con disciplina, efectividad y contundencia.
     `,
     autor: {
-      nombre: "Gabriel Cifuentes",
+      nombre: "Gabriel Gifuentes",
       foto: "/autores/gabriel.png",
     },
   },
   {
-    id: 3,
-    titulo: "Rubio Rubin: La afición guatemalteca nos hará sentir en casa si clasificamos al Mundial 2026",
-    resumen: "Rubio Rubin, delantero de la selección de Guatemala, expresó su convicción tras la histórica participación de su equipo en la Copa Oro 2025, donde llegaron hasta las semifinales.",
-    fecha: "8 Agosto 2025",
+    id: 2,
+    titulo: "Entradas volaron en horas: La fiebre por ver a La Bicolor contra El Salvador rompe récords y desata polémica por fallos en la compra",
+    resumen: "Los 11,000 boletos para el duelo Guatemala vs El Salvador se agotaron en horas, generando euforia y quejas por fallos en la plataforma de venta.",
+    fecha: "16 de agosto de 2025",
     categoria: "Deportes",
-    imagen: "/noticias/noticia3.jpeg",
+    imagen: "/noticias/noticia2.jpg",
     contenidoCompleto: `
-     Rubio Rubin, delantero de la selección de Guatemala, expresó su convicción tras la histórica participación de su equipo en la Copa Oro 2025, donde llegaron hasta las semifinales. Rubin afirmó que, de clasificarse al Mundial 2026, podrían jugar como locales debido al enorme apoyo de guatemaltecos en EE. UU. También destacó cómo el equipo superó adversidades, mostrando mentalidad ganadora para enfrentar ahora las eliminatorias contra Panamá, El Salvador y Surinam.
+      La pasión por la Selección Nacional de Guatemala alcanzó un nuevo punto álgido esta semana, luego de que los 11,000 boletos disponibles para el duelo contra El Salvador correspondiente a la ronda final de las Eliminatorias de Concacaf rumbo al Mundial 2026 se agotaran en tiempo récord. 
+      
+      El encuentro, programado para el 4 de septiembre de 2025 en el Estadio Cementos Progreso de Ciudad de Guatemala, marcará el inicio de un tramo decisivo para La Bicolor. Aunque la capacidad del recinto es cercana a 14,000 espectadores, la Federación Nacional de Fútbol de Guatemala (Fedefut) dispuso un aforo reducido por motivos de seguridad y logística.
+      
+      Sin embargo, la euforia también vino acompañada de frustración. Numerosos aficionados denunciaron en redes sociales que la plataforma de venta en línea presentó fallos constantes, como lentitud en pagos, errores de carga e incluso caídas del sistema. Esto alimentó sospechas de acaparamiento por revendedores, ya que algunos usuarios aseguraron haber visto boletos revendidos a precios inflados pocas horas después.
+      
+      El partido no solo es relevante por su valor deportivo, sino también por su contexto histórico y emocional. Guatemala y El Salvador comparten una de las rivalidades más antiguas del fútbol centroamericano. Además, el traslado al Cementos Progreso se debe a las remodelaciones del Estadio Doroteo Guamuch Flores, lo que implicó retos adicionales en logística y accesos.
+    `,
+    autor: {
+      nombre: "Cony Rodriguez",
+      foto: "/autores/cony.jpeg",
+    },
+  },
+  {
+    
+    id: 3,
+    titulo: "¡Golpe maestro desde adentro! Guatemala acelera trámites de nacionalización para reforzar a La Bicolor antes de arrancar la gran eliminatoria",
+    resumen: "Luis Fernando Tena gestiona la nacionalización de José Corena y Cristian ‘Cheka’ Hernández como estrategia para fortalecer a la Selección Nacional rumbo al Mundial 2026.",
+    fecha: "16 de agosto de 2025",
+    categoria: "Deportes",
+    imagen: "/noticias/noticia1.jpg",
+    contenidoCompleto: `
+      La selección nacional de Guatemala, dirigida por el estratega mexicano Luis Fernando Tena, ha dado un paso estratégico que podría marcar una diferencia clave en su camino rumbo al Mundial 2026. 
+      Según declaraciones del propio Tena, está solicitando desde hace más de un año la nacionalización de dos figuras foráneas que han brillado en la liga local: el colombiano José Corena, de Comunicaciones FC, y el argentino Cristian ‘Cheka’ Hernández, de Municipal. Ambos jugadores ya cumplen los requisitos de residencia más de siete años en el país, e incluso los trámites están en marcha, aunque no se han concluido aún.
+      
+      Los números hablan por sí mismos. Corena ha acumulado 32 goles y 10 asistencias en Comunicaciones FC, mientras que Hernández ha dejado su huella en Municipal con 55 goles, siendo decisivo en múltiples encuentros. 
+      
+      Pese a ello, Tena ha sido claro: la naturalización está considerada como un refuerzo, no una necesidad urgente. Confía en el plantel actual, aunque reconoce que estos refuerzos podrían ser fundamentales en caso de lesiones o suspensiones. 
+      
+      El objetivo es “potencializar el plantel” y crear competencia interna, fortaleciendo así la profundidad del equipo. Esta estrategia llega justo antes del debut en la ronda final de las Eliminatorias de Concacaf, programado para el 4 de septiembre de 2025, cuando Guatemala reciba a El Salvador.
     `,
     autor: {
       nombre: "Gabriel Cifuentes",
@@ -57,6 +73,7 @@ const noticias = [
     },
   },
 ]
+
 
 export default function NoticiaPage({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = React.use(params)
@@ -125,24 +142,7 @@ export default function NoticiaPage({ params }: { params: Promise<{ id: string }
         <div className="prose prose-lg max-w-none mb-12">
           {noticia.contenidoCompleto.split("\n").map((parrafo, index, array) => {
             // Para la noticia 2, agregar imagen antes del último párrafo
-            if (noticia.id === 2 && index === array.length - 2 && parrafo.trim()) {
-              return (
-                <div key={index}>
-                  <p className="text-gray-800 leading-relaxed mb-6 text-lg">{parrafo.trim()}</p>
-                  {/* Imagen adicional para la noticia 2 */}
-                  <div className="my-8 rounded-lg overflow-hidden shadow-lg">
-                    <img
-                      src="/noticias/noticia21.jpeg"
-                      alt="Celebración del equipo de Sololá"
-                      className="w-full h-64 object-cover"
-                    />
-                    <p className="text-sm text-gray-500 text-center mt-2 italic">
-                      Ter Stegen con el presidente del FC Barcelona, Joan Laporta.
-                    </p>
-                  </div>
-                </div>
-              )
-            }
+            
 
             return parrafo.trim() ? (
               <p key={index} className="text-gray-800 leading-relaxed mb-6 text-lg">
