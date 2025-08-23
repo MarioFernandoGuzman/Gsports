@@ -54,7 +54,7 @@ const noticias = [
     id: 3,
 titulo: "Jóvenes que sueñan con quedarse… o con partir",
 resumen: "En Sololá y Quetzaltenango, muchos jóvenes indígenas enfrentan la falta de oportunidades y ven la migración como única salida, mientras surgen iniciativas para que puedan construir un futuro en sus comunidades.",
-fecha: "16 de agosto de 2025",
+fecha: "23 de agosto de 2025",
 categoria: "Sociedad",
 imagen: "/noticias/noticia3.jpg",
 contenidoCompleto: `

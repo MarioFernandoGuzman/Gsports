@@ -32,7 +32,7 @@ const noticias = [
     id: 2,
     titulo: "Entradas volaron en horas: La fiebre por ver a La Bicolor contra El Salvador rompe récords y desata polémica por fallos en la compra",
     resumen: "Los 11,000 boletos para el duelo Guatemala vs El Salvador se agotaron en horas, generando euforia y quejas por fallos en la plataforma de venta.",
-    fecha: "16 de agosto de 2025",
+    fecha: "23 de agosto de 2025",
     categoria: "Deportes",
     imagen: "/noticias/noticia3.jpg",
     contenidoCompleto: `
@@ -54,7 +54,7 @@ const noticias = [
     id: 3,
 titulo: "Jóvenes que sueñan con quedarse… o con partir",
 resumen: "En Sololá y Quetzaltenango, muchos jóvenes indígenas enfrentan la falta de oportunidades y ven la migración como única salida, mientras surgen iniciativas para que puedan construir un futuro en sus comunidades.",
-fecha: "16 de agosto de 2025",
+fecha:  "23 de agosto de 2025",
 categoria: "Sociedad",
 imagen: "/noticias/noticia2.jpg",
 contenidoCompleto: `
