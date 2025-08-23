@@ -52,25 +52,36 @@ const noticias = [
   {
     
     id: 3,
-    titulo: "¡Golpe maestro desde adentro! Guatemala acelera trámites de nacionalización para reforzar a La Bicolor antes de arrancar la gran eliminatoria",
-    resumen: "Luis Fernando Tena gestiona la nacionalización de José Corena y Cristian ‘Cheka’ Hernández como estrategia para fortalecer a la Selección Nacional rumbo al Mundial 2026.",
-    fecha: "16 de agosto de 2025",
-    categoria: "Deportes",
-    imagen: "/noticias/noticia1.jpg",
-    contenidoCompleto: `
-      La selección nacional de Guatemala, dirigida por el estratega mexicano Luis Fernando Tena, ha dado un paso estratégico que podría marcar una diferencia clave en su camino rumbo al Mundial 2026. 
-      Según declaraciones del propio Tena, está solicitando desde hace más de un año la nacionalización de dos figuras foráneas que han brillado en la liga local: el colombiano José Corena, de Comunicaciones FC, y el argentino Cristian ‘Cheka’ Hernández, de Municipal. Ambos jugadores ya cumplen los requisitos de residencia más de siete años en el país, e incluso los trámites están en marcha, aunque no se han concluido aún.
-      
-      Los números hablan por sí mismos. Corena ha acumulado 32 goles y 10 asistencias en Comunicaciones FC, mientras que Hernández ha dejado su huella en Municipal con 55 goles, siendo decisivo en múltiples encuentros. 
-      
-      Pese a ello, Tena ha sido claro: la naturalización está considerada como un refuerzo, no una necesidad urgente. Confía en el plantel actual, aunque reconoce que estos refuerzos podrían ser fundamentales en caso de lesiones o suspensiones. 
-      
-      El objetivo es “potencializar el plantel” y crear competencia interna, fortaleciendo así la profundidad del equipo. Esta estrategia llega justo antes del debut en la ronda final de las Eliminatorias de Concacaf, programado para el 4 de septiembre de 2025, cuando Guatemala reciba a El Salvador.
-    `,
-    autor: {
-      nombre: "Gabriel Cifuentes",
-      foto: "/autores/gabriel.png",
-    },
+titulo: "Jóvenes que sueñan con quedarse… o con partir",
+resumen: "En Sololá y Quetzaltenango, muchos jóvenes indígenas enfrentan la falta de oportunidades y ven la migración como única salida, mientras surgen iniciativas para que puedan construir un futuro en sus comunidades.",
+fecha: "16 de agosto de 2025",
+categoria: "Sociedad",
+imagen: "/noticias/noticia3.jpg",
+contenidoCompleto: `
+  Jóvenes que sueñan con quedarse… o con partir
+
+  En muchas comunidades rurales de Sololá y Quetzaltenango, los jóvenes enfrentan un dilema creciente: la tierra que conocen ya no les ofrece oportunidades claras. La pobreza rural que afecta a más del 80 % de las comunidades indígenas y la falta de empleo digno hacen que migrar se vea como la única salida. Según el Banco Mundial, cada vez son más los adolescentes y jóvenes quienes encabezan estas migraciones, buscando un futuro mejor lejos de su lugar de origen (World Bank, 2023). En cifras más concretas, un estudio del PNUD reveló que en Sololá el 15.4 % de los hogares rurales tienen al menos un miembro que ha migrado al extranjero, mientras que en Quetzaltenango esta cifra llega al 12.5 %. Esto confirma que el altiplano occidental es una de las zonas más golpeadas por el éxodo juvenil (PNUD, 2023).
+
+  Las causas: oportunidad, clima… y falta de alternativas
+
+  ¿Sabías que el Brookings Institute afirma que el cambio climático es un motor silencioso de la migración en Guatemala? Sequías y lluvias extremas han reducido las cosechas y debilitado la economía agrícola que sostiene a miles de familias. A esto se suma la falta de opciones educativas: muchos jóvenes indígenas abandonan la escuela antes de terminar la secundaria porque deben trabajar para ayudar en casa (Banco Mundial, 2023). La violencia y la inseguridad también influyen. De acuerdo con Prensa Libre, la percepción de riesgo y la ausencia de instituciones que garanticen protección en las comunidades rurales refuerzan la idea de que salir es más seguro que quedarse (Prensa Libre, 2024).
+
+  Alternativas en el campo: quedarte con futuro
+
+  Pero no todo es desolación. Según la FAO, en Quetzaltenango y Sololá se han impulsado proyectos como La Factoría de Trabajo, donde jóvenes emprendedores desarrollan negocios locales de productos agrícolas, quesos, fertilizantes orgánicos y hasta ecoturismo. Jóvenes como María Chum Pastor y Nelson Chun Ramírez se han convertido en ejemplos de que sí se puede crear un futuro en la tierra que los vio nacer (FAO, 2022). Además, la organización Vida Digna acompaña a jóvenes migrantes que han retornado, ayudándoles con apoyo emocional, becas y orientación para emprender en sus comunidades. Gracias a estos programas, muchos han logrado reconstruir sus sueños sin tener que volver a migrar (Vida Digna, 2024).
+
+  Apoyo institucional cerca de casa
+
+  La OIM también ha puesto manos a la obra con el programa Quédate, que busca capacitar a jóvenes en oficios y habilidades digitales. En Sololá ya se reportan casos de migrantes retornados que, tras recibir formación, consiguieron empleo digno sin tener que arriesgar nuevamente su vida en un viaje irregular (OIM, 2024). Estas iniciativas demuestran que, con apoyo y visión, la juventud puede encontrar razones para quedarse y crecer en su propio territorio.
+
+  ¿Qué podemos hacer desde el blog… y como sociedad?
+
+  La historia de los jóvenes rurales de Sololá y Quetzaltenango es también la historia de la esperanza. Aunque muchos parten, otros demuestran que quedarse y luchar vale la pena. Como sociedad, podemos darles voz y visibilizar sus logros: desde los talleres comunitarios hasta los emprendimientos que nacen en el campo. Tu blog puede ser ese espacio donde se reconozca que la migración no siempre es la única opción, y que cada joven tiene derecho a soñar en su propio lugar.
+`,
+autor: {
+  nombre: "Gabriel Cifuentes",
+  foto: "/autores/gabriel.png",
+},
   },
 ]
 
