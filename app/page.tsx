@@ -7,21 +7,19 @@ export default function NewsPage() {
 const noticias = [
   {
     id: 1,
-    titulo: "Lester Martínez: Una pelea histórica en la cartelera de Canelo vs. Crawford",
-    resumen: "El guatemalteco Lester Martínez enfrentará a Christian Mbilli en Las Vegas, en la antesala del combate entre Canelo Álvarez y Terence Crawford.",
-    fecha: "16 de agosto de 2025",
+    titulo: "El Bochornozo inicio de Guatemala rumbo al mundial",
+    resumen: "El Bochornozo inicio de Guatemala rumbo al mundial tras la derrota 1-0 ante El Salvador en el Estadio Cementos Progreso.",
+    fecha: "6 de septiembre de 2025",
     categoria: "Deportes",
-    imagen: "/noticias/noticia3.jpg",
+    imagen: "/noticias/noticia1.jpg",
     contenidoCompleto: `
-      Las Vegas, 13 de septiembre de 2025 será una fecha histórica para el boxeo guatemalteco. En esa noche, el guatemalteco Lester Martínez, invicto con 19 triunfos (16 por nocaut), subirá al ring en el Allegiant Stadium para enfrentarse al también invicto Christian Mbilli (29-0, 24 KOs) en la antesala del esperado combate entre Canelo Álvarez y Terence Crawford.
+      La Selección Nacional de Guatemala arrancó su camino hacia el Mundial con un partido que dejó más dudas que ilusiones. El pasado 4 de septiembre, los chapines se enfrentaron a El Salvador, en un encuentro que pintaba para ser el inicio de una nueva etapa llena de esperanza, pero terminó siendo recordado más por los errores que por el buen fútbol.
       
-      Para Martínez, este combate representa una ventana a nivel mundial. "El premio al trabajo de muchos años", según su entrenador Héctor Arriola. Estar en esta cartelera no solo es visibilidad masiva, sino un reconocimiento al esfuerzo constante.
+     La afición guatemalteca llegó con todo el ánimo al estadio, ondeando banderas y soñando con un debut que ilusionara, pero lo que vieron fue un equipo que se notó nervioso y poco conectado en la cancha. Fallas en la defensa, imprecisiones en el medio campo y la falta de contundencia arriba hicieron que la "azul y blanco" se viera apagada frente a un rival que tampoco brilló demasiado, pero que supo aprovechar los errores.
       
-      Christian Mbilli, originario de Camerún y afincado en Canadá, es considerado el segundo mejor supermediano en el ranking, justo detrás de Canelo. Martínez, por su parte, ya se colocó en el top 10 mundial de los 168 libras tras derrotar a Joeshon James el 22 de marzo de 2025.
+      Más que un tropiezo, este arranque fue un llamado de atención. Los jugadores saben que deben reaccionar pronto si no quieren complicarse en un camino que ya de por sí está lleno de obstáculos. El público, por su parte, sigue esperando esa selección que juegue con garra y demuestre que Guatemala no está solo para participar, sino para competir en serio.
       
-      Aunque designado como coestelar, el impacto de esta pelea puede trascender el resultado: aumentar su visibilidad internacional, abrirle puertas a enfrentamientos de alto perfil y posicionarlo como figura clave de la división. 
-      
-      La presencia de Lester Martínez en la cartelera de Canelo vs. Crawford no es casualidad, sino el fruto de una carrera forjada con disciplina, efectividad y contundencia.
+     El proceso apenas empieza, pero si este partido fue una prueba, el mensaje está claro: hay mucho por mejorar y poco tiempo para hacerlo.
     `,
     autor: {
       nombre: "Gabriel Gifuentes",
@@ -30,19 +28,23 @@ const noticias = [
   },
   {
     id: 2,
-    titulo: "Entradas volaron en horas: La fiebre por ver a La Bicolor contra El Salvador rompe récords y desata polémica por fallos en la compra",
+    titulo: "“Venus Williams se despide del US Open con estilo y ovación",
     resumen: "Los 11,000 boletos para el duelo Guatemala vs El Salvador se agotaron en horas, generando euforia y quejas por fallos en la plataforma de venta.",
-    fecha: "23 de agosto de 2025",
+    fecha: "6 de Septiembre de 2025",
     categoria: "Deportes",
-    imagen: "/noticias/noticia3.jpg",
+    imagen: "/noticias/noticia2.jpg",
     contenidoCompleto: `
-      La pasión por la Selección Nacional de Guatemala alcanzó un nuevo punto álgido esta semana, luego de que los 11,000 boletos disponibles para el duelo contra El Salvador correspondiente a la ronda final de las Eliminatorias de Concacaf rumbo al Mundial 2026 se agotaran en tiempo récord. 
+      Venus Williams volvió a recordarnos por qué es considerada una leyenda viviente del tenis. A sus 45 años, la mayor de las hermanas Williams se presentó en el US Open 2025 y dejó una huella imborrable, no solo por su juego, sino también por su estilo y carisma fuera de la cancha.
       
-      El encuentro, programado para el 4 de septiembre de 2025 en el Estadio Cementos Progreso de Ciudad de Guatemala, marcará el inicio de un tramo decisivo para La Bicolor. Aunque la capacidad del recinto es cercana a 14,000 espectadores, la Federación Nacional de Fútbol de Guatemala (Fedefut) dispuso un aforo reducido por motivos de seguridad y logística.
+     Esta vez, Venus decidió enfocarse en la modalidad de dobles junto a la canadiense Leylah Fernandez, con quien logró llegar hasta los cuartos de final, un resultado que pocos esperaban y que, sin embargo, estuvo cargado de emoción y nostalgia. Aunque la dupla no consiguió avanzar más allá de esa ronda, su participación fue celebrada como un auténtico triunfo para el deporte.
       
-      Sin embargo, la euforia también vino acompañada de frustración. Numerosos aficionados denunciaron en redes sociales que la plataforma de venta en línea presentó fallos constantes, como lentitud en pagos, errores de carga e incluso caídas del sistema. Esto alimentó sospechas de acaparamiento por revendedores, ya que algunos usuarios aseguraron haber visto boletos revendidos a precios inflados pocas horas después.
+      Lo que más llamó la atención del público y la prensa especializada fue la forma en que Venus se despidió: con un atuendo diseñado por Lacoste, lleno de guiños a pioneras del tenis como Althea Gibson, quien en su momento abrió el camino para que mujeres afroamericanas tuvieran un lugar en este deporte. Cada detalle de su look fue interpretado como un homenaje a la historia del tenis femenino y a la lucha por la igualdad.
       
-      El partido no solo es relevante por su valor deportivo, sino también por su contexto histórico y emocional. Guatemala y El Salvador comparten una de las rivalidades más antiguas del fútbol centroamericano. Además, el traslado al Cementos Progreso se debe a las remodelaciones del Estadio Doroteo Guamuch Flores, lo que implicó retos adicionales en logística y accesos.
+      Además, su presencia en el torneo coincidió con apariciones públicas en eventos de alto perfil, como el Met Gala 2025, donde también brilló por su elegancia y actitud. Esto refuerza una idea que Venus lleva años defendiendo: el tenis no solo es deporte, también es cultura, moda y expresión personal.
+
+      En lo estrictamente deportivo, Venus sigue siendo un ejemplo de longevidad y resiliencia. Jugar a un nivel competitivo a los 45 años no es tarea fácil, pero ella lo hace con pasión y disciplina. Su nombre aparece constantemente junto al de Serena cuando se habla de las jugadoras que revolucionaron el tenis femenino, pero Venus ha sabido construir su propia identidad, más ligada a la elegancia, la constancia y el amor puro por el deporte.
+
+      Los aficionados la despidieron con una ovación de pie, reconociendo no solo su trayectoria, sino también el hecho de que sigue inspirando a nuevas generaciones de tenistas. Y aunque no queda claro si este fue su último US Open, una cosa sí es segura: Venus Williams ya no juega por títulos, sino por legado, y eso la convierte en una figura irrepetible en la historia del deporte.
     `,
     autor: {
       nombre: "Cony Rodriguez",
@@ -52,31 +54,22 @@ const noticias = [
   {
     
     id: 3,
-titulo: "Jóvenes que sueñan con quedarse… o con partir",
-resumen: "En Sololá y Quetzaltenango, muchos jóvenes indígenas enfrentan la falta de oportunidades y ven la migración como única salida, mientras surgen iniciativas para que puedan construir un futuro en sus comunidades.",
-fecha:  "23 de agosto de 2025",
-categoria: "Sociedad",
-imagen: "/noticias/noticia2.jpg",
+titulo: "Arrancó la NFL: la temporada que promete emociones de principio a fin",
+resumen: "la NFL está de vuelta y promete darnos drama, espectáculo y mucha adrenalina hasta febrero.",
+fecha:  "6 de Septiembre de 2025",
+categoria: "Deportes",
+imagen: "/noticias/noticia3.jpg",
 contenidoCompleto: `
-  Jóvenes que sueñan con quedarse… o con partir
+  ¡Ya empezó la fiesta del fútbol americano! La NFL abrió su nueva temporada con todo, y los fanáticos alrededor del mundo ya se están frotando las manos porque se viene un calendario cargado de partidos vibrantes, estrellas que quieren brillar y equipos que buscan llegar al Super Bowl.
 
-  En muchas comunidades rurales de Sololá y Quetzaltenango, los jóvenes enfrentan un dilema creciente: la tierra que conocen ya no les ofrece oportunidades claras. La pobreza rural que afecta a más del 80 % de las comunidades indígenas y la falta de empleo digno hacen que migrar se vea como la única salida. Según el Banco Mundial, cada vez son más los adolescentes y jóvenes quienes encabezan estas migraciones, buscando un futuro mejor lejos de su lugar de origen (World Bank, 2023). En cifras más concretas, un estudio del PNUD reveló que en Sololá el 15.4 % de los hogares rurales tienen al menos un miembro que ha migrado al extranjero, mientras que en Quetzaltenango esta cifra llega al 12.5 %. Esto confirma que el altiplano occidental es una de las zonas más golpeadas por el éxodo juvenil (PNUD, 2023).
+  El kickoff siempre es especial: estadios llenos, cánticos, luces y esa sensación de que cualquier cosa puede pasar. Y claro, este año no es la excepción. Los favoritos de siempre como Kansas City Chiefs, San Francisco 49ers y Philadelphia Eagles llegan con la presión de demostrar por qué son potencias. Pero ojo, porque siempre hay equipos que sorprenden y terminan robándose la película.
 
-  Las causas: oportunidad, clima… y falta de alternativas
+Más allá de estadísticas y números, lo que hace tan especial a la NFL es la emoción: partidos que se deciden en los últimos segundos, jugadas espectaculares y la pasión de millones de fanáticos que cada semana viven como si fuera la final.
 
-  ¿Sabías que el Brookings Institute afirma que el cambio climático es un motor silencioso de la migración en Guatemala? Sequías y lluvias extremas han reducido las cosechas y debilitado la economía agrícola que sostiene a miles de familias. A esto se suma la falta de opciones educativas: muchos jóvenes indígenas abandonan la escuela antes de terminar la secundaria porque deben trabajar para ayudar en casa (Banco Mundial, 2023). La violencia y la inseguridad también influyen. De acuerdo con Prensa Libre, la percepción de riesgo y la ausencia de instituciones que garanticen protección en las comunidades rurales refuerzan la idea de que salir es más seguro que quedarse (Prensa Libre, 2024).
+  
+Este inicio no solo marca el regreso de los tacleos y touchdowns, sino también de las historias que se van escribiendo jornada tras jornada. Desde jugadores jóvenes buscando dejar su huella, hasta veteranos que quieren una última gran temporada, cada partido cuenta y cada detalle suma.
 
-  Alternativas en el campo: quedarte con futuro
 
-  Pero no todo es desolación. Según la FAO, en Quetzaltenango y Sololá se han impulsado proyectos como La Factoría de Trabajo, donde jóvenes emprendedores desarrollan negocios locales de productos agrícolas, quesos, fertilizantes orgánicos y hasta ecoturismo. Jóvenes como María Chum Pastor y Nelson Chun Ramírez se han convertido en ejemplos de que sí se puede crear un futuro en la tierra que los vio nacer (FAO, 2022). Además, la organización Vida Digna acompaña a jóvenes migrantes que han retornado, ayudándoles con apoyo emocional, becas y orientación para emprender en sus comunidades. Gracias a estos programas, muchos han logrado reconstruir sus sueños sin tener que volver a migrar (Vida Digna, 2024).
-
-  Apoyo institucional cerca de casa
-
-  La OIM también ha puesto manos a la obra con el programa Quédate, que busca capacitar a jóvenes en oficios y habilidades digitales. En Sololá ya se reportan casos de migrantes retornados que, tras recibir formación, consiguieron empleo digno sin tener que arriesgar nuevamente su vida en un viaje irregular (OIM, 2024). Estas iniciativas demuestran que, con apoyo y visión, la juventud puede encontrar razones para quedarse y crecer en su propio territorio.
-
-  ¿Qué podemos hacer desde el blog… y como sociedad?
-
-  La historia de los jóvenes rurales de Sololá y Quetzaltenango es también la historia de la esperanza. Aunque muchos parten, otros demuestran que quedarse y luchar vale la pena. Como sociedad, podemos darles voz y visibilizar sus logros: desde los talleres comunitarios hasta los emprendimientos que nacen en el campo. Tu blog puede ser ese espacio donde se reconozca que la migración no siempre es la única opción, y que cada joven tiene derecho a soñar en su propio lugar.
 `,
 autor: {
   nombre: "Gabriel Cifuentes",
