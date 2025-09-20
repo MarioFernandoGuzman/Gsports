@@ -4,23 +4,31 @@ import React from "react"
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 
+  // Aquí puedes agregar más noticias siguiendo la misma estructura
 const noticias = [
   {
     id: 1,
-    titulo: "El Bochornozo inicio de Guatemala rumbo al mundial",
-    resumen: "El Bochornozo inicio de Guatemala rumbo al mundial tras la derrota 1-0 ante El Salvador en el Estadio Cementos Progreso.",
+    titulo: "Lester Martínez empata con Mbilli y ya tiene revancha confirmada",
+    resumen: " Lester Martínez hizo historia al empatar con Christian Mbilli en Las Vegas, y ya tiene una revancha ordenada por el WBC.",
     fecha: "6 de septiembre de 2025",
     categoria: "Deportes",
     imagen: "/noticias/noticia1.jpg",
     contenidoCompleto: `
-      La Selección Nacional de Guatemala arrancó su camino hacia el Mundial con un partido que dejó más dudas que ilusiones. El pasado 4 de septiembre, los chapines se enfrentaron a El Salvador, en un encuentro que pintaba para ser el inicio de una nueva etapa llena de esperanza, pero terminó siendo recordado más por los errores que por el buen fútbol.
+      El boxeador guatemalteco Lester Martínez vivió una noche histórica el pasado 13 de septiembre de 2025 en Las Vegas, donde se enfrentó al camerunés Christian Mbilli en la cartelera del combate entre Canelo Álvarez y Terence Crawford.
+
+      La pelea, pactada a 10 asaltos por el título interino supermediano del Consejo Mundial de Boxeo (WBC), fue intensa y pareja de principio a fin. Ambos púgiles intercambiaron golpes con gran determinación y mostraron por qué llegaron invictos a este escenario.
+     
+      Al sonar la campana final, los jueces no pudieron dar un ganador claro: uno calificó la pelea 97-93 para Martínez, otro la vio 96-94 para Mbilli y el tercero la marcó 95-95. El resultado oficial fue empate mayoritario, con lo que Mbilli retuvo su cinturón.
+     
+      Martínez, quien salió del ring con récord de 19 victorias, 0 derrotas y 1 empate, se mostró convencido de que hizo lo suficiente para ganar, destacando que en varios momentos pudo conectar con su uppercut y responder con fuerza ante la ofensiva del camerunés. Sin embargo, también reconoció que hay aspectos por mejorar para la próxima vez.
       
-     La afición guatemalteca llegó con todo el ánimo al estadio, ondeando banderas y soñando con un debut que ilusionara, pero lo que vieron fue un equipo que se notó nervioso y poco conectado en la cancha. Fallas en la defensa, imprecisiones en el medio campo y la falta de contundencia arriba hicieron que la "azul y blanco" se viera apagada frente a un rival que tampoco brilló demasiado, pero que supo aprovechar los errores.
-      
-      Más que un tropiezo, este arranque fue un llamado de atención. Los jugadores saben que deben reaccionar pronto si no quieren complicarse en un camino que ya de por sí está lleno de obstáculos. El público, por su parte, sigue esperando esa selección que juegue con garra y demuestre que Guatemala no está solo para participar, sino para competir en serio.
-      
-     El proceso apenas empieza, pero si este partido fue una prueba, el mensaje está claro: hay mucho por mejorar y poco tiempo para hacerlo.
-    `,
+      Y esa próxima vez ya está asegurada: el Consejo Mundial de Boxeo ordenó una revancha inmediata entre ambos peleadores, luego de la paridad mostrada en el primer combate. El guatemalteco aseguró que esta vez trabajará aún más fuerte y que confía plenamente en lograr la victoria.
+
+      “Yo sé que en la revancha puedo ganar. Esta oportunidad me motiva más y voy a corregir lo que faltó”, declaró Martínez al salir del ring.
+
+      La segunda pelea aún no tiene fecha confirmada, pero se espera que sea a más rounds, lo que podría darle un giro distinto al desenlace. Para Lester y para Guatemala, será una nueva oportunidad de demostrar que el boxeo chapín puede brillar en la élite mundial.
+
+      `,
     autor: {
       nombre: "Gabriel Gifuentes",
       foto: "/autores/gabriel.png",
@@ -28,24 +36,19 @@ const noticias = [
   },
   {
     id: 2,
-    titulo: "“Venus Williams se despide del US Open con estilo y ovación",
-    resumen: "Los 11,000 boletos para el duelo Guatemala vs El Salvador se agotaron en horas, generando euforia y quejas por fallos en la plataforma de venta.",
+    titulo: "Sydney McLaughlin-Levrone bate récord y gana el título mundial de 400 metros",
+    resumen: " Sydney McLaughlin-Levrone hizo historia al ganar el oro en los 400 metros planos en el Campeonato Mundial de Atletismo 2025, rompiendo el récord del campeonato con un tiempo de 47.78 segundos.",
     fecha: "6 de Septiembre de 2025",
     categoria: "Deportes",
     imagen: "/noticias/noticia2.jpg",
     contenidoCompleto: `
-      Venus Williams volvió a recordarnos por qué es considerada una leyenda viviente del tenis. A sus 45 años, la mayor de las hermanas Williams se presentó en el US Open 2025 y dejó una huella imborrable, no solo por su juego, sino también por su estilo y carisma fuera de la cancha.
-      
-     Esta vez, Venus decidió enfocarse en la modalidad de dobles junto a la canadiense Leylah Fernandez, con quien logró llegar hasta los cuartos de final, un resultado que pocos esperaban y que, sin embargo, estuvo cargado de emoción y nostalgia. Aunque la dupla no consiguió avanzar más allá de esa ronda, su participación fue celebrada como un auténtico triunfo para el deporte.
-      
-      Lo que más llamó la atención del público y la prensa especializada fue la forma en que Venus se despidió: con un atuendo diseñado por Lacoste, lleno de guiños a pioneras del tenis como Althea Gibson, quien en su momento abrió el camino para que mujeres afroamericanas tuvieran un lugar en este deporte. Cada detalle de su look fue interpretado como un homenaje a la historia del tenis femenino y a la lucha por la igualdad.
-      
-      Además, su presencia en el torneo coincidió con apariciones públicas en eventos de alto perfil, como el Met Gala 2025, donde también brilló por su elegancia y actitud. Esto refuerza una idea que Venus lleva años defendiendo: el tenis no solo es deporte, también es cultura, moda y expresión personal.
+      En una actuación histórica, Sydney McLaughlin-Levrone ganó el oro en los 400 metros planos en el Campeonato Mundial de Atletismo 2025, celebrado recientemente en Tokio, con un tiempo de 47.78 segundos.
 
-      En lo estrictamente deportivo, Venus sigue siendo un ejemplo de longevidad y resiliencia. Jugar a un nivel competitivo a los 45 años no es tarea fácil, pero ella lo hace con pasión y disciplina. Su nombre aparece constantemente junto al de Serena cuando se habla de las jugadoras que revolucionaron el tenis femenino, pero Venus ha sabido construir su propia identidad, más ligada a la elegancia, la constancia y el amor puro por el deporte.
+      Este tiempo no sólo le otorgó la medalla de oro, sino que rompió el récord del campeonato, acercándose mucho al récord mundial que data de 1985 (47.60 segundos, de Marita Koch).
 
-      Los aficionados la despidieron con una ovación de pie, reconociendo no solo su trayectoria, sino también el hecho de que sigue inspirando a nuevas generaciones de tenistas. Y aunque no queda claro si este fue su último US Open, una cosa sí es segura: Venus Williams ya no juega por títulos, sino por legado, y eso la convierte en una figura irrepetible en la historia del deporte.
-    `,
+      McLaughlin-Levrone, originalmente famosa por sus logros en los 400 metros con vallas, ha demostrado una transición espectacular al plano liso, situándose ya como una de las atletas más destacadas del atletismo mundial.
+      
+      `,
     autor: {
       nombre: "Cony Rodriguez",
       foto: "/autores/cony.jpeg",
@@ -54,23 +57,21 @@ const noticias = [
   {
     
     id: 3,
-titulo: "Arrancó la NFL: la temporada que promete emociones de principio a fin",
-resumen: "la NFL está de vuelta y promete darnos drama, espectáculo y mucha adrenalina hasta febrero.",
+titulo: "Guatemala rescata un empate 1-1 en Panamá y sigue con vida en las Eliminatorias",
+resumen: " La Selección Nacional de Guatemala sumó un punto importante tras empatar 1-1 contra Panamá el 8 de septiembre de 2025 en el estadio Rommel Fernández, por la segunda fecha de la fase final de las Eliminatorias de la Concacaf rumbo al Mundial 2026.",
 fecha:  "6 de Septiembre de 2025",
 categoria: "Deportes",
 imagen: "/noticias/noticia3.jpg",
 contenidoCompleto: `
-  ¡Ya empezó la fiesta del fútbol americano! La NFL abrió su nueva temporada con todo, y los fanáticos alrededor del mundo ya se están frotando las manos porque se viene un calendario cargado de partidos vibrantes, estrellas que quieren brillar y equipos que buscan llegar al Super Bowl.
+  La Selección Nacional de Guatemala sumó un punto importante tras empatar 1-1 contra Panamá el 8 de septiembre de 2025 en el estadio Rommel Fernández, por la segunda fecha de la fase final de las Eliminatorias de la Concacaf rumbo al Mundial 2026.
 
-  El kickoff siempre es especial: estadios llenos, cánticos, luces y esa sensación de que cualquier cosa puede pasar. Y claro, este año no es la excepción. Los favoritos de siempre como Kansas City Chiefs, San Francisco 49ers y Philadelphia Eagles llegan con la presión de demostrar por qué son potencias. Pero ojo, porque siempre hay equipos que sorprenden y terminan robándose la película.
+  El encuentro inició con dominio panameño, pero Guatemala sorprendió al minuto 35 cuando Óscar Santis definió con calidad luego de una gran jugada colectiva. La alegría duró poco: tres minutos más tarde, Carlos Harvey empató para Panamá con un cabezazo tras un tiro de esquina.
 
-Más allá de estadísticas y números, lo que hace tan especial a la NFL es la emoción: partidos que se deciden en los últimos segundos, jugadas espectaculares y la pasión de millones de fanáticos que cada semana viven como si fuera la final.
+  Panamá controló el balón con más del 60%, pero Guatemala apostó por un juego ordenado y contragolpes rápidos. 
 
-  
-Este inicio no solo marca el regreso de los tacleos y touchdowns, sino también de las historias que se van escribiendo jornada tras jornada. Desde jugadores jóvenes buscando dejar su huella, hasta veteranos que quieren una última gran temporada, cada partido cuenta y cada detalle suma.
-
-
-`,
+  Con este resultado, Guatemala suma su primer punto en el Grupo A, tras la derrota inicial en casa (0-1) contra El Salvador. Panamá, por su parte, acumula dos empates consecutivos. El técnico Luis Fernando Tena valoró la entrega del equipo: “Sacamos un punto en una cancha complicada. Aún debemos mejorar en la concentración defensiva, pero el grupo tiene carácter”.
+      
+  `,
 autor: {
   nombre: "Gabriel Cifuentes",
   foto: "/autores/gabriel.png",
