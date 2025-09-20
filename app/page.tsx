@@ -9,7 +9,7 @@ const noticias = [
     id: 1,
     titulo: "Lester Martínez empata con Mbilli y ya tiene revancha confirmada",
     resumen: " Lester Martínez hizo historia al empatar con Christian Mbilli en Las Vegas, y ya tiene una revancha ordenada por el WBC.",
-    fecha: "6 de septiembre de 2025",
+    fecha: "20 de septiembre de 2025",
     categoria: "Deportes",
     imagen: "/noticias/noticia1.jpg",
     contenidoCompleto: `
@@ -37,7 +37,7 @@ const noticias = [
     id: 2,
     titulo: "Sydney McLaughlin-Levrone bate récord y gana el título mundial de 400 metros",
     resumen: " Sydney McLaughlin-Levrone hizo historia al ganar el oro en los 400 metros planos en el Campeonato Mundial de Atletismo 2025, rompiendo el récord del campeonato con un tiempo de 47.78 segundos.",
-    fecha: "6 de Septiembre de 2025",
+    fecha: "20 de Septiembre de 2025",
     categoria: "Deportes",
     imagen: "/noticias/noticia2.jpg",
     contenidoCompleto: `
@@ -58,7 +58,7 @@ const noticias = [
     id: 3,
 titulo: "Guatemala rescata un empate 1-1 en Panamá y sigue con vida en las Eliminatorias",
 resumen: " La Selección Nacional de Guatemala sumó un punto importante tras empatar 1-1 contra Panamá el 8 de septiembre de 2025 en el estadio Rommel Fernández, por la segunda fecha de la fase final de las Eliminatorias de la Concacaf rumbo al Mundial 2026.",
-fecha:  "6 de Septiembre de 2025",
+fecha:  "20 de Septiembre de 2025",
 categoria: "Deportes",
 imagen: "/noticias/noticia3.jpg",
 contenidoCompleto: `
