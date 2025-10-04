@@ -8,25 +8,21 @@ import { ArrowLeft } from "lucide-react"
 const noticias = [
   {
     id: 1,
-    titulo: "Lester Martínez empata con Mbilli y ya tiene revancha confirmada",
-    resumen: " Lester Martínez hizo historia al empatar con Christian Mbilli en Las Vegas, y ya tiene una revancha ordenada por el WBC.",
-    fecha: "20 de septiembre de 2025",
+    titulo: "Adidas presenta “Trionda”, el balón oficial del Mundial 2026",
+    resumen: "Adidas ha revelado el diseño y las innovaciones tecnológicas del balón oficial que se utilizará en la Copa Mundial de la FIFA 2026, denominado “Trionda”. Este balón simboliza la unión de los tres países anfitriones: Estados Unidos, México y Canadá.",
+    fecha: "4 de Octubre de 2025",
     categoria: "Deportes",
     imagen: "/noticias/noticia1.jpg",
     contenidoCompleto: `
-      El boxeador guatemalteco Lester Martínez vivió una noche histórica el pasado 13 de septiembre de 2025 en Las Vegas, donde se enfrentó al camerunés Christian Mbilli en la cartelera del combate entre Canelo Álvarez y Terence Crawford.
+      Adidas presentó oficialmente el Trionda, el balón que se utilizará en la Copa Mundial de la FIFA 2026, que se disputará en Estados Unidos, México y Canadá. Su nombre surge de la combinación de “tri”, en referencia a los tres países anfitriones, y “onda”, como símbolo de la energía y emoción que recorrerá todo el torneo.
 
-      La pelea, pactada a 10 asaltos por el título interino supermediano del Consejo Mundial de Boxeo (WBC), fue intensa y pareja de principio a fin. Ambos púgiles intercambiaron golpes con gran determinación y mostraron por qué llegaron invictos a este escenario.
-     
-      Al sonar la campana final, los jueces no pudieron dar un ganador claro: uno calificó la pelea 97-93 para Martínez, otro la vio 96-94 para Mbilli y el tercero la marcó 95-95. El resultado oficial fue empate mayoritario, con lo que Mbilli retuvo su cinturón.
-     
-      Martínez, quien salió del ring con récord de 19 victorias, 0 derrotas y 1 empate, se mostró convencido de que hizo lo suficiente para ganar, destacando que en varios momentos pudo conectar con su uppercut y responder con fuerza ante la ofensiva del camerunés. Sin embargo, también reconoció que hay aspectos por mejorar para la próxima vez.
-      
-      Y esa próxima vez ya está asegurada: el Consejo Mundial de Boxeo ordenó una revancha inmediata entre ambos peleadores, luego de la paridad mostrada en el primer combate. El guatemalteco aseguró que esta vez trabajará aún más fuerte y que confía plenamente en lograr la victoria.
+      El diseño del Trionda está cargado de simbolismo. Los colores verde, rojo y azul representan a las tres sedes mundialistas: México, Canadá y Estados Unidos. Además, incluye detalles como hojas de maple, un águila y estrellas, elementos que refuerzan la identidad de cada nación involucrada. Toques dorados evocan la grandeza del trofeo de la Copa del Mundo.
 
-      “Yo sé que en la revancha puedo ganar. Esta oportunidad me motiva más y voy a corregir lo que faltó”, declaró Martínez al salir del ring.
+      En cuanto a su fabricación, se trata del balón con menos paneles en la historia de los mundiales, con solo cuatro, lo que mejora la aerodinámica y la estabilidad en el aire. Sus costuras profundas y el relieve gráfico garantizan mayor agarre y control bajo distintas condiciones de juego.
 
-      La segunda pelea aún no tiene fecha confirmada, pero se espera que sea a más rounds, lo que podría darle un giro distinto al desenlace. Para Lester y para Guatemala, será una nueva oportunidad de demostrar que el boxeo chapín puede brillar en la élite mundial.
+      La gran novedad tecnológica es la incorporación de un sensor interno que captura datos a una velocidad de 500 veces por segundo. Esta innovación permitirá al VAR contar con información precisa para decisiones en jugadas de fuera de lugar, manos o dudas en la trayectoria del balón, aportando un nivel de justicia y detalle nunca antes visto en un mundial.
+
+      El Trionda no solo será protagonista dentro de la cancha, sino que también se convierte en un símbolo de unión entre tres culturas futbolísticas y en un reflejo de la modernización que acompañará al torneo más grande de la historia, con 48 selecciones participantes.
 
       `,
     autor: {
@@ -36,18 +32,22 @@ const noticias = [
   },
   {
     id: 2,
-    titulo: "Sydney McLaughlin-Levrone bate récord y gana el título mundial de 400 metros",
-    resumen: " Sydney McLaughlin-Levrone hizo historia al ganar el oro en los 400 metros planos en el Campeonato Mundial de Atletismo 2025, rompiendo el récord del campeonato con un tiempo de 47.78 segundos.",
-    fecha: "20 de Septiembre de 2025",
+    titulo: "Xelajú MC avanza gracias a gol en la prórroga y asegura boleto internacional",
+    resumen: "Xelajú MC logró una histórica clasificación a las semifinales de la Copa Centroamericana (Concacaf) tras vencer en la prórroga a Sporting San Miguelito en Panamá, con un gol decisivo en el minuto 119. Este triunfo no solo les permite avanzar en el torneo, sino que también asegura su participación en la próxima edición de la Copa de Campeones Concacaf 2026.",
+    fecha: "4 de Octubre de 2025",
     categoria: "Deportes",
     imagen: "/noticias/noticia2.jpg",
     contenidoCompleto: `
-      En una actuación histórica, Sydney McLaughlin-Levrone ganó el oro en los 400 metros planos en el Campeonato Mundial de Atletismo 2025, celebrado recientemente en Tokio, con un tiempo de 47.78 segundos.
+      El club Xelajú MC vivió una noche heroica al conseguir su pase a las semifinales de la Copa Centroamericana (Concacaf) tras derrotar en la vuelta a Sporting San Miguelito y remontar la serie.
 
-      Este tiempo no sólo le otorgó la medalla de oro, sino que rompió el récord del campeonato, acercándose mucho al récord mundial que data de 1985 (47.60 segundos, de Marita Koch).
+      En la ida, los quetzaltecos habían conseguido una ventaja de 2-0 en casa, lo que les daba un colchón para el partido de vuelta. En Panamá, Sporting San Miguelito abrió el marcador temprano, al minuto 4, con un gol de Ángel Valencia, lo que estrechó la serie.
 
-      McLaughlin-Levrone, originalmente famosa por sus logros en los 400 metros con vallas, ha demostrado una transición espectacular al plano liso, situándose ya como una de las atletas más destacadas del atletismo mundial.
-      
+      Cuando parecía que los panameños impondrían su momento, el guatemalteco Yair Jaén convirtió un penal al minuto 88, igualando el marcador del partido y nivelando la serie global. Con el agregado empatado, el encuentro se fue a la prórroga. En el minuto 119, Romário da Silva anotó el gol decisivo con un zurdazo desde un ángulo complicado, que selló la clasificación de Xelajú.
+
+      Consecuencias deportivas y económicas:
+
+      Con ese triunfo, Xelajú se mete entre los cuatro mejores del torneo regional. Además de avanzar en el torneo, el club aseguró su lugar en la Copa de Campeones Concacaf 2026. En el aspecto económico, se confirmó que el club recibirá una suma importante en premios por haber alcanzado esta fase. También ya se conocen las fechas oficiales para las semifinales: los partidos de ida serán entre el 22 y el 23 de octubre, y los de vuelta entre el 28 y el 30 de octubre. Xelajú se enfrentará al Real CD España (Honduras) como rival en esta fase.
+
       `,
     autor: {
       nombre: "Cony Rodriguez",
@@ -57,20 +57,30 @@ const noticias = [
   {
     
     id: 3,
-titulo: "Guatemala rescata un empate 1-1 en Panamá y sigue con vida en las Eliminatorias",
-resumen: " La Selección Nacional de Guatemala sumó un punto importante tras empatar 1-1 contra Panamá el 8 de septiembre de 2025 en el estadio Rommel Fernández, por la segunda fecha de la fase final de las Eliminatorias de la Concacaf rumbo al Mundial 2026.",
-fecha:  "20 de Septiembre de 2025",
+titulo: "Las Vegas Aces y su magnífico retorno: rumbo a las finales de la WNBA 2025",
+resumen: " Las Vegas Aces han protagonizado una de las remontadas más impresionantes en la historia reciente de la WNBA, lideradas por la estelar A’ja Wilson, quien ha sido nombrada MVP por cuarta vez. Tras un inicio complicado, el equipo logró encadenar 16 victorias consecutivas y ahora se prepara para enfrentar a Phoenix Mercury en las finales, en una serie que promete ser muy reñida.",
+fecha:  "4 de Octubre de 2025",
 categoria: "Deportes",
 imagen: "/noticias/noticia3.jpg",
 contenidoCompleto: `
-  La Selección Nacional de Guatemala sumó un punto importante tras empatar 1-1 contra Panamá el 8 de septiembre de 2025 en el estadio Rommel Fernández, por la segunda fecha de la fase final de las Eliminatorias de la Concacaf rumbo al Mundial 2026.
+  En el baloncesto femenino de los Estados Unidos, las Las Vegas Aces están protagonizando una campaña impresionante al llegar a las finales (WNBA Finals) y con una estrella que hace historia: A’ja Wilson.
+  
+  Título personal histórico: A’ja Wilson logra su 4.º MVP
 
-  El encuentro inició con dominio panameño, pero Guatemala sorprendió al minuto 35 cuando Óscar Santis definió con calidad luego de una gran jugada colectiva. La alegría duró poco: tres minutos más tarde, Carlos Harvey empató para Panamá con un cabezazo tras un tiro de esquina.
+  En septiembre de 2025, A’ja Wilson fue proclamada MVP de la WNBA por cuarta vez, un récord en la historia de la liga. Durante la temporada, promedió 23.4 puntos por partido, fue la líder en bloqueos (2.3 por partido) y aportó con rebotes, defensa y versatilidad. Parte de su reconocimiento también se sustentó en la remontada que lideró el equipo: tras un mal partido en el que perdieron por 53 puntos, envió un mensaje al plantel que encendió un cambio mental decisivo. A partir de ese momento, Las Vegas encadenó una racha de 16 victorias consecutivas y aseguró el segundo lugar en la clasificación general. 
+ 
+  Camino hacia las finales:
+ 
+  En los playoffs, las Aces pasaron por una serie muy disputada contra el Indiana Fever, llegando al quinto partido para definir. En ese encuentro decisivo, ganaron 107-98 en tiempo extra. Ese juego 5 de la semifinal se convirtió en uno de los más vistos en la historia de la WNBA. Superó récords de audiencia en ESPN, con un promedio de alrededor de 1.8 millones de espectadores y picos de más de 2.1 millones. Además, los partido semifinales vieron un incremento notable en espectadores respecto a ediciones anteriores, con un crecimiento del 57 % en audiencias. 
 
-  Panamá controló el balón con más del 60%, pero Guatemala apostó por un juego ordenado y contragolpes rápidos. 
+  Enfrentamiento en las finales:
 
-  Con este resultado, Guatemala suma su primer punto en el Grupo A, tras la derrota inicial en casa (0-1) contra El Salvador. Panamá, por su parte, acumula dos empates consecutivos. El técnico Luis Fernando Tena valoró la entrega del equipo: “Sacamos un punto en una cancha complicada. Aún debemos mejorar en la concentración defensiva, pero el grupo tiene carácter”.
-      
+  En las finales, las Aces se enfrentarán al equipo Phoenix Mercury, que alcanzó la instancia tras eliminar al top-seed Minnesota Lynx. Una novedad importante: 2025 marca la primera vez que las finales de la WNBA se jugarán al formato de mejor de 7 partidos. Para el primer partido (Game 1) del series, tanto las Aces como los Mercury llegan con plantillas completas, sin reportes oficiales de lesiones que afecten la rotación inicial.
+
+  Rivalidad interna y claves del duelo:
+
+  Una historia interesante es que A’ja Wilson fue clave para que el equipo “despertara”. Después de ese traspié ante Minnesota, envió un mensaje al grupo: “Si no estás avergonzado por el partido de ayer, no vengas hoy al gimnasio”, dando un giro mental importante. La otra cara del duelo será Alyssa Thomas, la estrella del Mercury, que jugó una temporada excepcional y lideró el resurgimiento del equipo. Analistas predicen que la serie será muy cerrada. Algunos ven ventaja para Las Vegas por su experiencia y estado de forma, mientras otros apuntan que Phoenix puede sorprender por su intensidad defensiva y profundidad.
+  
   `,
 autor: {
   nombre: "Gabriel Cifuentes",
